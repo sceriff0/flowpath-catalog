@@ -1,6 +1,6 @@
 {
-  "name": "FlowPath Extension Catalog",
-  "description": "Extending QuPath with Flow Cytometry-inspired analysis tools",
+  "name": "FlowPath — QuPath Extension Suite",
+  "description": "A suite of QuPath extensions bringing flow cytometry-inspired analysis tools to multiplexed imaging. Includes interactive gating, dimensionality reduction, and visualization.",
   "extensions": [
     {
       "name": "FlowPath - GatingTree",
