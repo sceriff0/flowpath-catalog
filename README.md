@@ -6,8 +6,8 @@ A suite of extensions for [QuPath](https://qupath.github.io/) that bring **flow 
 
 | Extension | What it does |
 |-----------|-------------|
-| [FlowPath - GatingTree](https://github.com/sceriff0/qupath-extension-flowpath) | Interactive tree-based cell phenotyping using hierarchical gates — classify cells the way you would on a flow cytometer |
-| [FlowPath - qUMAP](https://github.com/sceriff0/qupath-extension-qumap) | UMAP dimensionality reduction and visualization — explore high-dimensional measurement data in 2D |
+| [FlowPath - GatingTree](https://github.com/sceriff0/qupath-extension-flowpath-gatingtree) | Interactive tree-based cell phenotyping using hierarchical gates — classify cells the way you would on a flow cytometer |
+| [FlowPath - qUMAP](https://github.com/sceriff0/qupath-extension-flowpath-qumap) | UMAP dimensionality reduction and visualization — explore high-dimensional measurement data in 2D |
 
 ## Getting Started
 
