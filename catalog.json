@@ -220,6 +220,13 @@
           }
         }
       ]
+    },
+    {
+      "name": "FlowPath - AnnoMask",
+      "description": "Convert TIFF segmentation masks to QuPath detection objects via GeoJSON. Supports channel-in-image and file input modes; optional on-the-fly intensity extraction makes outputs immediately gateable in FlowPath - GatingTree.",
+      "author": "sceriff0",
+      "homepage": "https://github.com/sceriff0/qupath-extension-annomask",
+      "releases": []
     }
   ]
 }
