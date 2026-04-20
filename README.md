@@ -8,6 +8,7 @@ A suite of extensions for [QuPath](https://qupath.github.io/) that bring **flow 
 |-----------|-------------|
 | [FlowPath - GatingTree](https://github.com/sceriff0/qupath-extension-flowpath-gatingtree) | Interactive tree-based cell phenotyping using hierarchical gates — classify cells the way you would on a flow cytometer |
 | [FlowPath - qUMAP](https://github.com/sceriff0/qupath-extension-flowpath-qumap) | UMAP dimensionality reduction and visualization — explore high-dimensional measurement data in 2D |
+| [FlowPath - AnnoMask](https://github.com/sceriff0/qupath-extension-annomask) | Import labeled segmentation masks (Cellpose, StarDist, mirage, etc.) as QuPath detections with per-channel mean-intensity measurements — the entry point for mask-based pipelines into the FlowPath toolkit |
 
 ## Getting Started
 
