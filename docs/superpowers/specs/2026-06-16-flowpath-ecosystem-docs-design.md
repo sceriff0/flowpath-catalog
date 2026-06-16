@@ -19,8 +19,9 @@ re-documented, since it already owns its own site.
 |---|---|
 | MIRAGE scope | **Reference & link out** — document the QuPath side in depth; treat MIRAGE as the upstream producer with deep links to `mirage.readthedocs.io`. No duplication. |
 | Site location | **Inside `flowpath-catalog`** — add `docs/`, `mkdocs.yml`, `.readthedocs.yaml` to the existing catalog repo (the conceptual hub of the suite). |
-| Color palette | **Royal Blue + Orange** — primary `#2563eb` (light `#3b82f6`, dark `#1d4ed8`), accent `#f97316`. Hero gradient `blue-700 → orange-500`. Deliberately distinct from MIRAGE's teal/cyan. |
-| Site title | **FlowPath** |
+| Color palette | **Blue + Violet** (matches the logo gradient) — primary `#2563eb` (light `#3b82f6`, dark `#4338ca`), accent `#8b5cf6`. Hero gradient `blue-700 → violet-500`. Distinct from MIRAGE's teal/cyan. |
+| Site title | **FlowPath** — tagline/`site_description`: *"FlowJo-style workflows for QuPath"* (from the logo). |
+| Logo | User-supplied `flowpathlogo.png` (1774×887 blue→purple wordmark on black). Black background **knocked out to transparent** via PIL → `docs/assets/logo.png`; square **favicon** cropped from the magnifier icon → `docs/assets/favicon.png`. |
 | Navigation model | **Approach C (hybrid)** — workflow-driven Getting Started + Walkthrough up front, per-component reference sections behind it. Same shape as MIRAGE's site. |
 | Screenshots | **Placeholder image + caption** — a single neutral `placeholder.png` every `<img>` points to until replaced, each with a descriptive caption, plus a `screenshots/README.md` manifest listing the intended content of each shot. Pages render cleanly immediately. |
 
