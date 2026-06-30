@@ -21,7 +21,7 @@
     No. The FlowPath extensions are **independent, MIT-licensed QuPath
     extensions** by [`sceriff0`](https://github.com/sceriff0). MIRAGE is a
     separate Nextflow pipeline with its
-    [own documentation](https://mirage.readthedocs.io/).
+    [own documentation](https://mirage-pipeline.readthedocs.io/).
 
 ??? question "Do GatingTree and qUMAP share the same cells?"
     Yes. Both operate on the **QuPath detections** in the current image. Gate in

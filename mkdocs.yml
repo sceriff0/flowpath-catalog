@@ -15,6 +15,7 @@ copyright: >-
 exclude_docs: |
   assets/screenshots/README.md
   superpowers/
+  _archive/
 
 # ---------------------------------------------------------------------------
 # Theme
@@ -89,26 +90,10 @@ plugins:
 # ---------------------------------------------------------------------------
 nav:
   - Home: index.md
-  - Getting Started:
-      - Overview: overview.md
-      - Installation: installation.md
-      - Walkthrough: walkthrough.md
-  - The Ecosystem:
-      - How it fits together: architecture.md
-      - Measurement Keys: measurement-keys.md
-      - MIRAGE (upstream): mirage.md
-  - Extensions:
-      - GatingTree: gatingtree.md
-      - AnnoMask: annomask.md
-      - qUMAP: qumap.md
-  - Catalog:
-      - The FlowPath Catalog: catalog.md
-  - Help:
-      - Troubleshooting: troubleshooting.md
-      - FAQ: faq.md
-      - Compatibility: compatibility.md
-      - Citation: citation.md
-      - Changelog: changelog.md
+  - Installation: installation.md
+  - Usage: usage.md
+  - Troubleshooting: troubleshooting.md
+  - Citation: citation.md
 
 # ---------------------------------------------------------------------------
 # Appearance extras

@@ -30,7 +30,7 @@ extension manager, which reads it live).
 
 | Project | Role | Notes |
 |---|---|---|
-| [MIRAGE](mirage.md) | Upstream pipeline | Produces the OME-TIFF, `cells.geojson`, and masks FlowPath consumes. Not required — [any compatible source](faq.md) works. Docs: <https://mirage.readthedocs.io/> |
+| [MIRAGE](mirage.md) | Upstream pipeline | Produces the OME-TIFF, `cells.geojson`, and masks FlowPath consumes. Not required — [any compatible source](faq.md) works. Docs: <https://mirage-pipeline.readthedocs.io/> |
 | [QuPath](https://qupath.github.io/) | Host platform | FlowPath extensions run inside QuPath 0.7.0+. |
 
 ## Libraries of note

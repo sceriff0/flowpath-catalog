@@ -87,4 +87,4 @@ MIRAGE stops at **quantified cells**: a pyramidal OME-TIFF, a `cells.geojson`,
 and label masks. Everything on this site happens *after* that, inside QuPath.
 For how those inputs are produced, see the
 [MIRAGE upstream page](mirage.md) and MIRAGE's own
-[export](https://mirage.readthedocs.io/) and quantification docs.
+[export](https://mirage-pipeline.readthedocs.io/) and quantification docs.

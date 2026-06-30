@@ -10,7 +10,7 @@ documentation — this page is a short orientation and a set of deep links.
     panels and turns it into aligned images, segmented cells, single-cell marker
     tables, and QuPath-ready GeoJSON.
 
-    :material-book-open-variant: **Full docs:** <https://mirage.readthedocs.io/>
+    :material-book-open-variant: **Full docs:** <https://mirage-pipeline.readthedocs.io/>
     · :fontawesome-brands-github: **Source:** <https://github.com/sceriff0/mirage>
 
 ## What MIRAGE does
@@ -59,7 +59,7 @@ For details that live on MIRAGE's side, go straight to its documentation:
 - :material-grain: **Segmentation backends and mask outputs** — MIRAGE's *Segmentation* page
 - :material-walk: **Running MIRAGE end to end** — MIRAGE's *Walkthrough*
 
-All of the above are at <https://mirage.readthedocs.io/>.
+All of the above are at <https://mirage-pipeline.readthedocs.io/>.
 
 !!! note "You don't have to use MIRAGE"
     FlowPath works with any source of detections + measurements. [AnnoMask](annomask.md)

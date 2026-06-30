@@ -57,4 +57,4 @@ flowchart LR
 Because both sides speak the same key language, MIRAGE's output is
 **plug-and-play** in FlowPath. For the full list of keys MIRAGE emits, see the
 [MIRAGE upstream page](mirage.md) and MIRAGE's quantification and outputs docs
-at <https://mirage.readthedocs.io/>.
+at <https://mirage-pipeline.readthedocs.io/>.

@@ -36,7 +36,7 @@ That last mile is exactly what FlowPath is for.
 !!! info "Two projects, one workflow"
     MIRAGE runs *before* QuPath, as a pipeline. FlowPath runs *inside* QuPath,
     interactively. They meet at the OME-TIFF + measurements. MIRAGE has its own
-    [documentation site](https://mirage.readthedocs.io/); this site documents
+    [documentation site](https://mirage-pipeline.readthedocs.io/); this site documents
     the QuPath side.
 
 ## Two on-ramps

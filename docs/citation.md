@@ -1,8 +1,8 @@
 # Citation
 
-If you use FlowPath in published work, please cite the **relevant extension(s)**
-and the tools they build on. If you also used [MIRAGE](mirage.md) upstream,
-please cite that too.
+If you use FlowPath in published work, please cite the **extension(s) you
+actually used** and the tools they build on. If you also used
+[MIRAGE](https://mirage-pipeline.readthedocs.io/) upstream, cite that too.
 
 ## FlowPath extensions
 
@@ -32,8 +32,8 @@ All FlowPath extensions run on QuPath — please cite it:
 
 ## UMAP & SMILE (for qUMAP)
 
-If you used [qUMAP](qumap.md), also cite the UMAP algorithm and the SMILE
-library that implements it:
+If you computed an embedding, also cite the UMAP algorithm and the SMILE library
+that implements it:
 
 > McInnes, L., Healy, J., & Melville, J. (2018). UMAP: Uniform Manifold
 > Approximation and Projection for Dimension Reduction. *arXiv:1802.03426*.
@@ -45,9 +45,8 @@ library that implements it:
 ## MIRAGE (upstream pipeline)
 
 If you produced your inputs with MIRAGE, cite it as well — see MIRAGE's own
-[citation page](https://mirage.readthedocs.io/) for the current reference.
+[citation page](https://mirage-pipeline.readthedocs.io/) for the current reference.
 
 !!! tip "Cite what you used"
-    Only cite the extensions you actually used. A pure import-and-gate workflow
-    needs GatingTree (+ AnnoMask if you imported a mask); add qUMAP and its
-    references only if you computed an embedding.
+    A pure import-and-gate workflow needs GatingTree (+ AnnoMask if you imported a
+    mask); add qUMAP and its references only if you computed an embedding.
