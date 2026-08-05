@@ -361,6 +361,13 @@
           }
         }
       ]
+    },
+    {
+      "name": "FlowPath - Decidware",
+      "description": "Interactive per-cell decisioning: consume MIRAGE constrained-conformal phenotyping output, or classify cells one at a time by hand. Provenance-tracked decisions persist to JSON and export to CSV.",
+      "author": "sceriff0",
+      "homepage": "https://github.com/sceriff0/qupath-extension-decidware",
+      "releases": []
     }
   ]
 }
