@@ -1,41 +1,45 @@
-# FlowPath — QuPath Extension Suite
+# flowpath-catalog — superseded
 
-[![QuPath](https://img.shields.io/badge/QuPath-%E2%89%A50.7.0-2563eb.svg)](https://qupath.github.io/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-8b5cf6.svg)](https://opensource.org/licenses/MIT)
-[![Docs](https://img.shields.io/badge/docs-flowpath.readthedocs.io-success.svg)](https://flowpath.readthedocs.io/)
+> [!IMPORTANT]
+> **FlowPath moved to a single repo.** As of FlowPath **v2.0.0**, GatingTree and
+> qUMAP are one extension, and `catalog.json` now lives alongside its source at
+> **[qupath-extension-flowpath-gatingtree](https://github.com/sceriff0/qupath-extension-flowpath-gatingtree)**.
+>
+> This repo receives no further catalog updates.
 
-FlowJo-style workflows for [QuPath](https://qupath.github.io/): a suite of three
-extensions for **single-cell analysis of multiplexed tissue imaging** (CODEX,
-MIBI, mIF). Import cells, gate them into named phenotypes, and explore them in a
-UMAP — all inside QuPath. Picks up where the
-[MIRAGE](https://mirage-pipeline.readthedocs.io/) pipeline leaves off.
+## If you have the old catalog URL
+
+In QuPath: **Extensions → Manage extensions → Manage extension catalogs**, remove
+the old entry and add:
+
+```
+https://raw.githubusercontent.com/sceriff0/qupath-extension-flowpath-gatingtree/main/catalog.json
+```
+
+`raw.githubusercontent.com` does not redirect, so this is a manual step — there is
+no way to forward the old URL.
+
+While you are there, remove **FlowPath - GatingTree** and **FlowPath - qUMAP** and
+install **FlowPath**. QuPath keys extensions by name and will not offer the fused
+extension as an upgrade of either; leaving the old two installed gives you three
+menu items and two independent cell indices that disagree with each other. Saved
+gate trees (`.json`) load unchanged.
+
+## Why the `catalog.json` here still works
+
+It is deliberately left in place, still listing the v1-era extensions. Anyone who
+has not migrated yet keeps a working install and a working update check for those
+versions — they simply will not be offered FlowPath v2.0.0 or anything after it.
+
+## Related extensions
+
+Still maintained, in their own repos:
 
 | Extension | What it does |
 |---|---|
-| [GatingTree](https://github.com/sceriff0/qupath-extension-flowpath-gatingtree) | Interactive tree-based cell phenotyping with hierarchical gates. |
-| [qUMAP](https://github.com/sceriff0/qupath-extension-flowpath-qumap) | UMAP dimensionality reduction and visualization. |
-| [AnnoMask](https://github.com/sceriff0/qupath-extension-annomask) | Import labeled segmentation masks (MIRAGE, Cellpose, StarDist…) as QuPath detections. |
-
-This repo is the **catalog** (`catalog.json`) — QuPath's one-URL install hub for
-all three.
-
-## Install
-
-In QuPath: **Extensions → Manage extensions → Manage extension catalogs → Add
-catalog**, then paste:
-
-```
-https://raw.githubusercontent.com/sceriff0/flowpath-catalog/main/catalog.json
-```
-
-Install GatingTree, AnnoMask, and qUMAP with `+`, then restart QuPath.
-
-## 📖 Documentation
-
-Full docs — install, usage, options, troubleshooting, citations — live at
-**<https://flowpath.readthedocs.io/>**.
+| [AnnoMask](https://github.com/sceriff0/qupath-extension-annomask) | Import labelled segmentation masks (MIRAGE, Cellpose, StarDist…) as QuPath detections. |
+| [Decidware](https://github.com/sceriff0/qupath-extension-decidware) | Decision-support tooling for QuPath. |
 
 ## License
 
-MIT. The FlowPath extensions are independent, MIT-licensed QuPath extensions by
-[`sceriff0`](https://github.com/sceriff0).
+MIT.
