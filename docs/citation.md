@@ -9,7 +9,7 @@ actually used** and the tools they build on. If you also used
 === "GatingTree"
 
     > FlowPath: Interactive tree-based cell phenotyping for QuPath. (2026).
-    > <https://github.com/sceriff0/qupath-extension-flowpath-gatingtree>
+    > <https://github.com/sceriff0/qupath-extension-flowpath>
 
 === "qUMAP"
 

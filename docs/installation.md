@@ -75,7 +75,7 @@ Manage extensions shows the path), then restart QuPath.
 
 | Extension | Releases |
 |---|---|
-| GatingTree | <https://github.com/sceriff0/qupath-extension-flowpath-gatingtree/releases> |
+| GatingTree | <https://github.com/sceriff0/qupath-extension-flowpath/releases> |
 | AnnoMask | <https://github.com/sceriff0/qupath-extension-annomask/releases> |
 | qUMAP | <https://github.com/sceriff0/qupath-extension-flowpath-qumap/releases> |
 
@@ -88,8 +88,8 @@ needs **JDK 25** plus QuPath 0.7.0 artefacts. The built JAR lands in
 === "GatingTree"
 
     ```bash
-    git clone https://github.com/sceriff0/qupath-extension-flowpath-gatingtree.git
-    cd qupath-extension-flowpath-gatingtree
+    git clone https://github.com/sceriff0/qupath-extension-flowpath.git
+    cd qupath-extension-flowpath
     ./gradlew build
     ```
 

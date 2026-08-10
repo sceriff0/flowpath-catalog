@@ -3,7 +3,7 @@
 > [!IMPORTANT]
 > **FlowPath moved to a single repo.** As of FlowPath **v2.0.0**, GatingTree and
 > qUMAP are one extension, and `catalog.json` now lives alongside its source at
-> **[qupath-extension-flowpath-gatingtree](https://github.com/sceriff0/qupath-extension-flowpath-gatingtree)**.
+> **[qupath-extension-flowpath](https://github.com/sceriff0/qupath-extension-flowpath)**.
 >
 > This repo receives no further catalog updates.
 
@@ -13,7 +13,7 @@ In QuPath: **Extensions → Manage extensions → Manage extension catalogs**, r
 the old entry and add:
 
 ```
-https://raw.githubusercontent.com/sceriff0/qupath-extension-flowpath-gatingtree/main/catalog.json
+https://raw.githubusercontent.com/sceriff0/qupath-extension-flowpath/main/catalog.json
 ```
 
 `raw.githubusercontent.com` does not redirect, so this is a manual step — there is
